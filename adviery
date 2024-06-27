@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            color: #333;
+        }
+        section {
+            margin: 50px 0;
+        }
+        h2 {
+            font-size: 2em;
+            color: #555;
+        }
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .project-title {
+            font-size: 1.5em;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #e2e8f0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .social-links a:hover {
+            color: #0073e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bienvenido a mi Página Personal</h1>
+        </header>
+        <section>
+            <h2>Sobre Mí</h2>
+            <div class="card">
+                <p>Soy un joven apasionado por la escritura, la fotografía, el fútbol y la música. En mis momentos libres, me dedico a escribir y espero algún día convertirme en un entrenador de fútbol.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Proyectos de Escritura</h2>
+            <div class="card">
+                <div class="project-title">Proyecto 1</div>
+                <p>Descripción breve del proyecto 1.</p>
+            </div>
+            <div class="card">
+                <div class="project-title">Proyecto 2</div>
+                <p>Descripción breve del proyecto 2.</p>
+            </div>
+            <!-- Puedes agregar más proyectos aquí -->
+        </section>
+        <footer>
+            <div class="social-links">
+                <a href="https://www.instagram.com/bernabe09_10?igsh=MTV6MDU4ZjIzN2VkeA==">Instagram</a>
+                <a href="https://www.tiktok.com/@advieryb?_t=8nXIunIFKHF&_r=1">Tiktok</a>
+                <a href="https://www.facebook.com/ADVIERYx2x3XD?mibextid=ZbWKwL">Facebook</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
